@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46EAFB5161E01A7006B818F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46EAFB4161E01A7006B818F /* CoreAudio.framework */; };
 		B49BBED3161DFF7E00B40B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49BBED2161DFF7E00B40B0D /* Foundation.framework */; };
 		B49BBED6161DFF7E00B40B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B49BBED5161DFF7E00B40B0D /* main.m */; };
 		B49BBEDA161DFF7E00B40B0D /* ChooseOutputDevice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B49BBED9161DFF7E00B40B0D /* ChooseOutputDevice.1 */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B46EAFB4161E01A7006B818F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		B49BBECE161DFF7E00B40B0D /* ChooseOutputDevice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChooseOutputDevice; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49BBED2161DFF7E00B40B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B49BBED5161DFF7E00B40B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46EAFB5161E01A7006B818F /* CoreAudio.framework in Frameworks */,
 				B49BBED3161DFF7E00B40B0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		B49BBED1161DFF7E00B40B0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B46EAFB4161E01A7006B818F /* CoreAudio.framework */,
 				B49BBED2161DFF7E00B40B0D /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -236,6 +240,7 @@
 				B49BBEDF161DFF7E00B40B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
